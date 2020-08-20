@@ -55,7 +55,7 @@ public class CustomView extends View {
         }
         if (flag == 0) {
             rect.set(getWidth()/2-250, getHeight()/2-250, getWidth()/2+250, getHeight()/2+250);
-            canvas.drawRect(400, 600, 900, 1100, blue);
+            canvas.drawRect(getWidth()/2f-250, getHeight()/2f-250, getWidth()/2f+250, getHeight()/2f+250, blue);
             pointsX[0] = getWidth()/2-250;
             pointsY[0] = getHeight()/2-250;
             pointsX[1] = getWidth()/2+250;
